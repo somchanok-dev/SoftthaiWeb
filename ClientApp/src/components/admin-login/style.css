@@ -1,0 +1,101 @@
+#LOGIN {
+    display: block;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(assets/bg-blue_orange.png);
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+}
+
+#LOGIN .box-login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px;
+    width: 400px;
+    max-width: 100%;
+}
+
+#LOGIN .box-login .box-title {
+    line-height: 1;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+#LOGIN .box-login .box-title.title-1 {
+    font-size: 1.5em;
+}
+
+#LOGIN .box-login .box-title.title-2 {
+    font-size: 2.5em;
+}
+
+#LOGIN .box-login .login-input {
+    position: relative;
+}
+
+#LOGIN .box-login .login-input>img {
+    position: absolute;
+    top: 50%;
+    left: 1em;
+    transform: translateY(-50%);
+    height: 1.5em;
+}
+
+#LOGIN .box-login .login-input>input[type="text"],
+#LOGIN .box-login .login-input>input[type="password"] {
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    padding-left: 3.5em;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.75);
+    border: 2px solid rgba(0, 0, 0, 0.75);
+    border-radius: 50em;
+    outline: none;
+    font-size: 1em;
+    line-height: 1.5;
+    transition: border .3s;
+}
+
+#LOGIN .box-login .login-input>input[type="text"]:focus,
+#LOGIN .box-login .login-input>input[type="password"]:focus {
+    border: 2px solid #ffffff;
+}
+
+#LOGIN .box-login .login-input>input:-webkit-autofill,
+#LOGIN .box-login .login-input>input:-webkit-autofill:hover,
+#LOGIN .box-login .login-input>input:-webkit-autofill:focus,
+#LOGIN .box-login .login-input>input:-webkit-autofill:active {
+    -webkit-text-fill-color: #ffffff;
+    -webkit-box-shadow: 0 0 0px 1000px #333333 inset;
+}
+
+#LOGIN .box-login .login-input>input::-webkit-input-placeholder,
+#LOGIN .box-login .login-input>input:-ms-input-placeholder,
+#LOGIN .box-login .login-input>input::placeholder {
+    color: #999999;
+}
+
+#LOGIN .box-login button {
+    padding: 10px 20px;
+    border-radius: 50em;
+    outline: none;
+    font-size: 1em;
+    line-height: 1.5;
+    border-width: 2px;
+    border-style: solid;
+}
+
+@media (max-width: 399px) {
+    #LOGIN .box-login .box-title.title-1 {
+        font-size: 1.4em;
+    }
+    #LOGIN .box-login .box-title.title-2 {
+        font-size: 2.2em;
+    }
+}

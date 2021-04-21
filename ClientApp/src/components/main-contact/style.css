@@ -1,0 +1,125 @@
+#CONTACT {
+    position: relative;
+    min-height: calc(100vh - 50px);
+}
+
+#CONTACT .page-cover {
+    position: relative;
+    min-height: 100vh;
+    background-image: url(assets/bg-cover.jpg);
+    background-attachment: fixed;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding: 85px 0 30px;
+}
+
+#CONTACT .page-cover .cover-content {
+    position: relative;
+    padding: 0 1vw;
+    color: #ffffff;
+    line-height: 1;
+    text-align: right;
+}
+
+#CONTACT .page-cover .cover-content>.cover-title {
+    font-size: 3.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#CONTACT .page-cover .cover-content>.cover-title>svg {
+    height: 56px;
+}
+
+#CONTACT .page-cover .cover-content>.cover-desc {
+    font-size: 1.2em;
+    line-height: 1.1;
+}
+
+@media (orientation: portrait) {
+    #CONTACT .page-cover {
+        min-height: 70vw;
+        background-attachment: local;
+        background-position-x: 70%;
+    }
+}
+
+@media (max-width:675px) {
+    #CONTACT .page-cover .cover-content>.cover-title {
+        font-size: 2.5em;
+    }
+    #CONTACT .page-cover .cover-content>.cover-title.title-2>svg {
+        height: 40px;
+    }
+    #CONTACT .page-cover .cover-content>.cover-desc {
+        font-size: 1em;
+    }
+}
+
+#CONTACT .bg-contact {
+    background-image: url(assets/bg-contact.jpg);
+    /* background-attachment: fixed; */
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#CONTACT .page-contact {
+    padding: 7vh 2vw;
+    color: #333333;
+    font-size: 1.1em;
+}
+
+#CONTACT .page-contact .contact-title {
+    font-size: 3em;
+    line-height: 1;
+    text-transform: uppercase;
+}
+
+#CONTACT .page-form {
+    position: relative;
+    padding: calc(7vh + 1em) 2vw 7vh;
+    color: #ffffff;
+    background-color: rgba(1, 12, 51, 0.8);
+}
+
+#CONTACT .page-form .form-title {
+    font-size: 2em;
+    line-height: 1;
+    text-transform: uppercase;
+}
+
+@media (max-width:991px) {
+    #CONTACT .page-form {
+        background-color: transparent;
+    }
+    #CONTACT .page-form:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 50%;
+        width: 100vw;
+        transform: translateX(-50%);
+        background-color: rgba(1, 12, 51, 0.8);
+        z-index: 0;
+    }
+}
+
+#CONTACT .page-address {
+    padding: 7vh 5vw;
+    color: #ffffff;
+    background-color: #ff6600;
+    font-size: 1.1em;
+}
+
+#CONTACT .page-address .address-title {
+    font-size: 2em;
+    line-height: 1;
+    text-transform: uppercase;
+}

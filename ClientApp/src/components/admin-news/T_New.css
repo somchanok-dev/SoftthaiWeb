@@ -1,0 +1,10 @@
+.imageT_NEW {
+    height: 10vh;
+    width: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.react-datepicker-wrapper {
+    width: 92%;
+}

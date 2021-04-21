@@ -1,0 +1,39 @@
+﻿.fileuploader {
+    font-family: inherit !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    background: none !important;
+}
+
+.fileuploader-items .fileuploader-item {
+    padding: 10px 20px !important;
+}
+
+.react-datepicker {
+    font-family: inherit !important;
+}
+
+.react-datepicker-popper {
+    z-index: 2 !important;
+}
+
+.modal-dialog {
+    position: absolute !important;
+    top: 45% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    width: 100% !important;
+}
+
+.modal-dialog {
+    position: absolute !important;
+    top: 40% !important;
+    max-height: 80vh;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    width: 100% !important;
+}
+
+.form-check-inline .form-check-input {
+    margin-right: 10px;
+}

@@ -1,0 +1,84 @@
+ @import url('./Styles/Fonts/HelveticaNeue/css/fonts.css');
+ @import url('./Styles/Fonts/Kanit/css/fonts.css');
+ html {
+     scroll-behavior: smooth;
+ }
+ 
+ body {
+     position: relative;
+     font-family: Kanit, HelveticaNeue, Tahoma !important;
+     min-height: 100vh;
+     font-size: 16px;
+ }
+ 
+ .menu {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+ }
+ 
+ .text-apricot {
+     color: #ec4833;
+ }
+ 
+ .text-carrot {
+     color: #ff6600;
+ }
+ 
+ .text-honey {
+     color: #ffa500;
+ }
+ 
+ .text-denim {
+     color: #162044;
+ }
+ 
+ .text-arctic {
+     color: #67daf9;
+ }
+ 
+ .bg-carrot {
+     background-color: #ff6600 !important;
+ }
+ 
+ .bg-denim {
+     background-color: #162044 !important;
+ }
+ 
+ .bg-arctic {
+     background-color: #67daf9 !important;
+ }
+ 
+ .btn-carrot {
+     color: #ffffff !important;
+     border-color: #ff6600 !important;
+     background-color: #ff6600 !important;
+ }
+ 
+ .btn-carrot:hover {
+     color: #ffffff !important;
+     border-color: #e04a00 !important;
+     background-color: #e04a00 !important;
+ }
+ 
+ .btn-carrot:active {
+     border-color: #b73c00 !important;
+     background-color: #b73c00 !important;
+ }
+ 
+ .btn-arctic {
+     color: #000000 !important;
+     border-color: #67daf9 !important;
+     background-color: #67daf9 !important;
+ }
+ 
+ .btn-arctic:hover {
+     color: #000000 !important;
+     border-color: #58bdda !important;
+     background-color: #58bdda !important;
+ }
+ 
+ .btn-arctic:active {
+     border-color: #4290a5 !important;
+     background-color: #4290a5 !important;
+ }
